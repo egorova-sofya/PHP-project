@@ -1,0 +1,11 @@
+AddDefaultCharset UTF-8
+
+; не отмечать расширение файла в адресной строке
+; RewriteRule ^about?$ about.php [NC, L]
+; RewriteRule ^check?$ check.php [NC, L]
+; RewriteRule ^index?$ index.php [NC, L]
+RewriteRule ^404?$ 404.php [NC, L]
+
+
+
+ErrorDocument 404 /404.php
